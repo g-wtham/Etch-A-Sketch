@@ -1,3 +1,3 @@
 # Etch-A-Sketch
-Create a etch-a-sketch web version and manipulate the values using DOM:
+A etch-a-sketch web version with random color for grids while hovering:
 https://g-wtham.github.io/Etch-A-Sketch/
