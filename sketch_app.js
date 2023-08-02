@@ -53,13 +53,14 @@ gridCells.forEach((gridCell) => {
     });
 
 
+//Added random color functionality, previously only one color would be change in colour while hovering 
+
 function randomColor() {
     const letters = '0123456789ABCDEF';
     let color = '';
 
     for (let i = 0; i < 6; i++) {
         const randomNumber = Math.floor(Math.random() * 16);
-        // Corrected line
         const randomChar = letters[randomNumber];
         color += randomChar;
     }
